@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+img{
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.username{
+    color: #fff;    
+    margin-bottom: -0.6rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.home{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.description{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.socialButton{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding: .8rem;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    width: 100%;
+    border-radius: 0.2rem;
+}
+
+.socialButton:hover{
+    background-color: hsl(75, 94%, 57%);;
+}
